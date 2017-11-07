@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GangesLSPSolution/GangesLSPSolution.iml" filepath="$PROJECT_DIR$/GangesLSPSolution/GangesLSPSolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GangesSRPSolution/GangesSRPSolution.iml" filepath="$PROJECT_DIR$/GangesSRPSolution/GangesSRPSolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/design-principles-solutions.iml" filepath="$PROJECT_DIR$/.idea/design-principles-solutions.iml" />
+    </modules>
+  </component>
+</project>
