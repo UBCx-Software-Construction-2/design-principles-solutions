@@ -34,13 +34,13 @@ public class GangesServiceManager {
         return bookRetailer.orderBook(c, bookNumber);
     }
 
-    // MODIFIES: bookRetailer
+    // MODIFIES: this
     // EFFECTS: Removes the given order number from the book orders, if it exists
     public boolean cancelBookOrder(int orderNumber) {
         return bookRetailer.cancelBookOrder(orderNumber);
     }
 
-    // MODIFIES: cloudStorage
+    // MODIFIES: this
     // EFFECTS: Stores the given data in the cloud under this customer's account
     public void putData(Customer c, String data) {
         cloudStorage.putData(c.getUniqueId(), data);
@@ -51,7 +51,7 @@ public class GangesServiceManager {
         return cloudStorage.getData(c.getUniqueId());
     }
 
-    // MODIFIES: cloudStorage
+    // MODIFIES: this
     // EFFECTS: Deletes this customer's data from the cloud
     public String deleteData(Customer c) {
         return cloudStorage.deleteData(c.getUniqueId());
